@@ -1,10 +1,10 @@
 # Product Inventory Management System
 
 **Subject Name**: Advanced Java<br>
-**Subject Code**: BCS613D<br>  
-**Name**: K Jeevan Kumar<br>  
-**USN**: 4AL22CS067<br>  
-**Sem/Section**: VI/B<br>  
+**Subject Code**: BCS613D
+**Name**: K Jeevan Kumar 
+**USN**: 4AL22CS067  
+**Sem/Section**: VI/B  
 
 ---
 A comprehensive web application for managing product inventory built with JSP, Servlets, and MySQL following MVC architecture principles.
