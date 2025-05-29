@@ -213,7 +213,7 @@ Click "Add Product"
 
 ### Test Cases to Verify:
 
-1. **Add Operations**:
+1. **Add Operations**:<br>
    - Add valid product records
    - Try adding duplicate Product IDs (should fail)
    - Test input validation (empty fields, invalid price/quantity, etc.)
