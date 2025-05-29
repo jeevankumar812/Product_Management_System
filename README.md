@@ -144,7 +144,7 @@ http://localhost:8080/MarkWebApp/
 <img src="screenshots/display.png" alt="Display Marks" width="700"/>
 
 ### Reports
-
+<img src="screenshots/report.png" alt="Search Student" width="700"/>
 
 ## 🎯 Usage Application
 
