@@ -126,3 +126,42 @@ Open your web browser and navigate to:
 http://localhost:8080/MarkWebApp/
 ```
 
+## 🖼️ Screenshots
+
+### 🏠 Home Page
+<img src="screenshots/Homepage.png" alt="Home Page" width="700"/>
+
+### ➕ Add Marks Page
+<img src="screenshots/add.png" alt="Add Marks Page" width="700"/>
+
+### 🔍 Search Student
+<img src="screenshots/search.png" alt="Search Student" width="700"/>
+
+### ❌ Delete Details
+<img src="screenshots/delete.png" alt="Search Student" width="700"/>
+
+### 🆕 Update Details
+<img src="screenshots/update.png" alt="Search Student" width="700"/>
+
+### 📋 Display Marks
+<img src="screenshots/display.png" alt="Display Marks" width="700"/>
+
+## 🎯 Usage Application
+
+### Adding New Products
+
+1. Navigate to "Add Product" from the main menu
+2. Fill in all required fields:
+- Product ID (unique identifier)
+- Product Name (max 100 characters)
+- Category (select from dropdown or input text)
+- Price (decimal value)
+- Quantity (integer)
+Click "Add Product"
+
+### Updating Product Details
+
+1. Go to "Update Product"
+2. Search for a product by ID
+3. Modify the displayed information
+4. Click "Update Product"
