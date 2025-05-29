@@ -211,32 +211,38 @@ Click "Add Product"
 
 ### 🧪 Testing the Application
 
-### Test Cases to Verify:
+### ✅ Test Cases to Verify:
 
-1. **Add Operations**:<br>
-   - Add valid product records
-   - Try adding duplicate Product IDs (should fail)
-   - Test input validation (empty fields, invalid price/quantity, etc.)
+1. **Add Operations**  
+   - Add valid product records  
+   - Try adding duplicate Product IDs (should fail)  
+   - Test input validation:  
+     - Empty fields  
+     - Invalid price (non-numeric or negative)  
+     - Invalid quantity (non-integer or negative)  
 
-2. **Update Operations**:
-   - Update existing records
-   - Try updating non-existent Product ID
-   - Test field validation
+2. **Update Operations**  
+   - Update existing product records  
+   - Try updating non-existent Product ID  
+   - Test field validation:  
+     - Empty or invalid fields  
+     - No changes submitted  
 
-3. **Delete Operations**:
-   - Delete existing records
-   - Try deleting non-existent Product ID
-   - Test confirmation mechanism
+3. **Delete Operations**  
+   - Delete existing product records  
+   - Try deleting non-existent Product ID  
+   - Test confirmation mechanism before deletion  
 
-4. **Display Operations**:
-   - View all records
-   - Search by valid Product ID
-   - Search by invalid Product ID
+4. **Display Operations**  
+   - View all product records  
+   - Search by valid Product ID  
+   - Search by invalid Product ID (should return 'not found' or similar)  
 
-5. **Report Generation**:
-   - Generate all three types of reports
-   - Test with different criteria values
-   - Verify statistics calculations
+5. **Report Generation**  
+   - Generate all three types of reports  
+   - Test with different filter or criteria values  
+   - Verify accuracy of statistics calculations (e.g., total value, averages)
+
 
 
 ## 🎓 Outcomes
