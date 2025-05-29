@@ -1,4 +1,4 @@
-# Product Inventory Management System
+# Product Management System
 
 **Subject Name**: Advanced Java<br>
 **Subject Code**: BCS613D<br>
