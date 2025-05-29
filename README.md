@@ -64,3 +64,35 @@ ProductWebApp/
 └── README.md
 
 ```
+
+## 🗄️ Database Setup
+
+### 1. Create Database
+```sql
+CREATE DATABASE IF NOT EXISTS product_inventory;
+USE product_inventory;
+```
+
+### 2. Create Table
+```sql
+CREATE TABLE IF NOT EXISTS Products (
+    ProductID INT PRIMARY KEY,
+    ProductName VARCHAR(100) NOT NULL,
+    Category VARCHAR(50) NOT NULL,
+    Price DECIMAL(10,2) NOT NULL,
+    Quantity INT NOT NULL
+);
+```
+
+### 3. Insert Sample Data
+```sql
+INSERT INTO Products VALUES 
+(101, 'Laptop Pro X', 'Electronics', 1200.00, 50),
+(102, 'Mechanical Keyboard', 'Accessories', 75.50, 150),
+(103, 'Wireless Mouse', 'Accessories', 25.00, 300),
+(104, 'Gaming Monitor 27"', 'Electronics', 350.00, 80),
+(105, 'USB-C Hub', 'Peripherals', 40.00, 200);
+```
+
+## ⚙️ Installation & Setup
+Download all the project files and organize them according to the project structure above.
