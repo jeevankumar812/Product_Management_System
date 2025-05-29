@@ -134,11 +134,11 @@ http://localhost:8080/MarkWebApp/
 ### ➕ Add Marks Page
 <img src="screenshots/add.png" alt="Add Marks Page" width="700"/>
 
-### ❌ Delete Details
-<img src="screenshots/delete.png" alt="Search Student" width="700"/>
-
 ### 🆕 Update Details
 <img src="screenshots/up_date.png" alt="Search Student" width="700"/>
+
+### ❌ Delete Details
+<img src="screenshots/delete.png" alt="Search Student" width="700"/>
 
 ### 📋 Display Marks
 <img src="screenshots/display.png" alt="Display Marks" width="700"/>
