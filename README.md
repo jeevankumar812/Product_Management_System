@@ -1,7 +1,7 @@
 # Product Inventory Management System
 
 **Subject Name**: Advanced Java<br>
-**Subject Code**: BCS613D
+**Subject Code**: BCS613D<br>
 **Name**: K Jeevan Kumar 
 **USN**: 4AL22CS067  
 **Sem/Section**: VI/B  
