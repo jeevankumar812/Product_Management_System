@@ -2,7 +2,7 @@
 
 **Subject Name**: Advanced Java<br>
 **Subject Code**: BCS613D<br>
-**Name**: K Jeevan Kumar 
+**Name**: K Jeevan Kumar<br> 
 **USN**: 4AL22CS067  
 **Sem/Section**: VI/B  
 
