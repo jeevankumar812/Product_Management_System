@@ -165,3 +165,85 @@ Click "Add Product"
 2. Search for a product by ID
 3. Modify the displayed information
 4. Click "Update Product"
+
+### Deleting Obsolete Products
+1. Go to "Delete Product"
+2. Search for a product by ID
+3. Confirm deletion by checking the confirmation box
+4. Click "Delete Product"
+
+### Displaying Product List
+1. Go to "Display Products"
+2. Either view all records or search by specific Product ID
+3. Use the action buttons to Edit or Delete records
+
+### Generating Reports
+1. Go to "Generate Reports"
+2. Select report type:
+- Products Above Price: Enter minimum price amount
+-  Products by Category: Select category
+-  Top N Products: Enter number of top products (by quantity or sales, depending on implementation)
+3. Click "Generate Report"
+4. View results with statistics and print option
+
+## 🔧 Technical Features
+Input Validation
+Client-side: JavaScript validation with Bootstrap
+Server-side: Comprehensive validation in servlets
+Database constraints: Primary key and NOT NULL constraints
+
+Error Handling
+Try-catch blocks for database operations
+User-friendly error messages
+Graceful handling of invalid inputs
+
+Security Features
+Prepared statements to prevent SQL injection
+Input validation
+Session management
+
+Responsive Design
+Bootstrap 5.3 framework
+Styling with hover effects
+Print-friendly report layouts
+
+
+🧪 Testing the Application
+
+Test Cases to Verify:
+Add Operations:
+   - Add valid product records
+   - Try adding duplicate Product IDs (should fail)
+   - Test input validation (empty fields, invalid price/quantity, etc.)
+
+Update Operations:
+   - Update existing records
+   - Try updating non-existent Product ID
+   - Test field validation
+
+Delete Operations:
+   - Delete existing records
+   - Try deleting non-existent Product ID
+   - Test confirmation mechanism
+
+Display Operations:
+   - View all records
+   - Search by valid Product ID
+   - Search by invalid Product ID
+
+Report Generation:
+   - Generate all three types of reports
+   - Test with different criteria values
+   - Verify statistics calculations
+
+
+## 🎓 Outcomes
+This project demonstrates:
+
+- **MVC Architecture**: Clear separation between Model, View, and Controller
+- **Database Integration**: CRUD operations with MySQL
+- **Web Development**: JSP, Servlets, HTML, CSS, JavaScript
+- **Input Validation**: Both client-side and server-side
+- **Report Generation**: Dynamic data analysis and presentation
+- **Professional UI**: Responsive design with Bootstrap
+   
